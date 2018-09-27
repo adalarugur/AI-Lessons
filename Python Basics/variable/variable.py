@@ -50,4 +50,25 @@ str2 = "1005"
 
 # %% user defined functions
 
+var1 = 20
+var2 = 50
+
+#definition func sonra tab koyulur sonra code block yazılır
+def my_first_fucn(x,y):
+    """
+    first try
+    
+    parametreler:
+    
+    return:    
+    """
+    output = ((((x+y)*50)/100.0)*x/y)%5
+    
+    return output
+
+sonuc = my_first_fucn(var1,var2)
+print(sonuc) 
+
+def try2():
+    print("second try")
 #object
