@@ -71,4 +71,32 @@ print(sonuc)
 
 def try2():
     print("second try")
+    
+    
+# %% default flexible functions
+    
+ #cember hesaplama
+ 
+ 
+ def cember_cevre(r,pi = 3.14):
+     out = 2*pi*r
+     return out
+ 
+ 
+#flexible     
+ def calc(boy,kilo,*args):
+     print(args)
+     out = (boy+kilo)*args[0]
+     return out
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+    
 #object
