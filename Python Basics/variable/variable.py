@@ -75,19 +75,59 @@ def try2():
     
 # %% default flexible functions
     
- #cember hesaplama
+ #def cember_cevresi_hesapla(r,pi=3.14):
+    
+    """
+    cember cevresi hesapla
+    input(parametre): r,pi
+    output = cemberin cevresi
+    """
+    
+    output = 2*pi*r
+    return output
+
+# flexible
+    
+def hesapla(boy,kilo,*args):
+    print(args)
+    output = (boy+kilo)*args[0]
+    return output
+
+#def hesapla(boy,kilo,yas):
+#    output = (boy+kilo)*yas
+#    return output
  
+# %% quiz
+    
+# int variable age
+# string name isim
+# fonksiyonu olacak
+# fonksiyon print(type(),len,float()) 
+# *args surname
+# default parametre foot number
+     
+ age = 15
+ name = "okan"
+ surname = "ay"
  
- def cember_cevre(r,pi = 3.14):
-     out = 2*pi*r
-     return out
- 
- 
-#flexible     
- def calc(boy,kilo,*args):
-     print(args)
-     out = (boy+kilo)*args[0]
-     return out
+def func_quiz(yas,name,*args,foot_number=38):
+    print("adı: ", name, " yas: ",age)
+    print(type(name))
+    print(float(age))
+
+    output = args[0]*yas
+    
+    return output
+
+sonuc  = func_quiz(age,name,surname)
+
+print(sonuc)
+    
+    
+    
+    
+    
+    
  
  
  
