@@ -110,7 +110,7 @@ def hesapla(boy,kilo,*args):
  name = "okan"
  surname = "ay"
  
-def func_quiz(yas,name,*args,foot_number=38):
+def func_quiz(age,name,*args,foot_number=38):
     print("adı: ", name, " yas: ",age)
     print(type(name))
     print(float(age))
